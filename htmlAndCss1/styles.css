@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    font-family: 'Staatliches', cursive;
+}
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 0px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 190px;
+    margin: 0px 10px;
+}
+
+.space {
+    height: 35px;
+}
+
+.space:hover {
+    transform: rotate(2880deg) scale(2, 2);
+    transition: 5s;
+    color: blue;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.nav-bar:hover {
+    color: blue;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.banner {
+    height: 200px;
+    width: 100%;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: blue;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.articles:hover {
+    transform: scale(5);
+    transition: 5s;
+    color: blue;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 90px;
+  
+}
+.card-pic {
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: darkblue;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    border-style: solid;
+    border-color: darkblue;
+    margin: 0px 0px 50px;
+}
+
+.title:hover {
+    /* transform: scale(1.2);
+    transition: 1s; */
+    color: blue;
+}
